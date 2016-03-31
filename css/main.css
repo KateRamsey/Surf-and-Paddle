@@ -1,11 +1,40 @@
+body{
+	font-family: sans-serif;
+}
+
 #header{
-	background-color: lightblue;
+	/*background-image: url("../img/headerimage.jpg"); */
+	background-color: #1D5894;
+	min-height: 400px;
+}
+
+#subheader{
+	margin-top: 100px;
+	display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;  
 }
 
 #blog{
-	background-color: lightblue;
+	background-color: #61A1CE;
 }
 
 #footer{
-	background-color: blue;
+	background-color: #1D5894;
+}
+
+.bloggerinfo{
+	background-color: red;
+}
+
+#title{
+	font-size: 6em;
+	font-family:sans-serif; 
+	color: white;
+	text-align:center;
+}
+
+#subtitle{
+	color: white;
+	text-align:center;
 }
