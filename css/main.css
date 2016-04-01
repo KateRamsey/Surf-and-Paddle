@@ -162,6 +162,11 @@ body{
 	.overlay{
 		min-height: 300px;
 	}
+	.blogimg{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
 }
 @media screen and (max-width: 330px) {
 	#title {
