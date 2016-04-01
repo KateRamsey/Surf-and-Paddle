@@ -5,6 +5,10 @@ body{
 #header{
 	position: relative;
 }
+#content h3{
+	color: #1D5894;
+	font-size: 3em;
+}
 
 .background {
 	margin-left: -15px;
@@ -56,10 +60,54 @@ body{
 
 #blog{
 	background-color: #61A1CE;
+	position: relative;
+	font-size: 2em;
+}
+
+#blogtitle{
+	font-size: 4em;
+	color: #1D5894;
+    text-align: center;
+    width: 100%;
+
+}
+
+.blogimg{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	float:left;
+	/*overflow: hidden; */
+	/*margin-right: -15px;*/
+}
+.blogimgname
+{
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	font-size: 2rem;
+}
+
+.blogimgoverlay
+{
+	height: 300px;
+	width: 300px;
+	background-color: #61A1CE;
+	opacity: .5;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.blogimgoverlay:hover {
+	opacity: 0;
 }
 
 #footer{
 	background-color: #1D5894;
+	min-height: 50px;
 }
 
 .bloggerinfo{
@@ -139,6 +187,18 @@ body{
 	}
 
 	#logo{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
+
+	.blogimg{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
+
+	#blogtitle{
 		visibility: hidden;
 		width: 0px;
 		height: 0px;
